@@ -31,8 +31,10 @@ class AuthorWeeklyReportSendCommand extends Command
 
     protected function configure()
     {
-        $this
-            ->setDescription('Send weekly reports to authors')
+        $this->setName('my-custom-command')
+            ->setDescription('This command runs your custom task')
+            ->setHelp('Run this command to execute your custom tasks in the execute function.')
+            ->addArgument('param', InputArgument::REQUIRED, 'Pass the parameter.');
         ;
     }
 

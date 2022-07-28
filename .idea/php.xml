@@ -160,7 +160,7 @@
       <path value="$PROJECT_DIR$/symfony/vendor/antishov/doctrine-extensions-bundle" />
     </include_path>
   </component>
-  <component name="PhpProjectSharedConfiguration" php_language_level="7.1">
+  <component name="PhpProjectSharedConfiguration" php_language_level="7.3">
     <option name="suggestChangeDefaultLanguageLevel" value="false" />
   </component>
 </project>
