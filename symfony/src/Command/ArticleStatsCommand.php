@@ -24,29 +24,29 @@ class ArticleStatsCommand extends Command
 
     protected function execute(InputInterface $input, OutputInterface $output)
     {
-//        $io = new SymfonyStyle($input, $output);
-//        $slug = $input->getArgument('slug');
-//
-//        $data = [
-//            'slug' => $slug,
-//            'hearts' => rand(10, 100),
-//        ];
-//
-//        switch ($input->getOption('format')) {
-//            case 'text':
-//                $rows = [];
-//                foreach ($data as $key => $val) {
-//                    $rows[] = [$key, $val];
-//                }
-//                $io->table(['Key', 'Value'], $rows);
-//                break;
-//            case 'json':
-//                $io->write(json_encode($data));
-//                break;
-//            default:
-//                throw new \Exception('What kind of crazy format is that!?');
-//        }
-        $output->writeln('ddddddddd');
+        $io = new SymfonyStyle($input, $output);
+        $slug = $input->getArgument('slug');
+
+        $data = [
+            'slug' => $slug,
+            'hearts' => rand(10, 100),
+        ];
+
+        switch ($input->getOption('format')) {
+            case 'text':
+                $rows = [];
+                foreach ($data as $key => $val) {
+                    $rows[] = [$key, $val];
+                }
+                $io->table(['Key', 'Value'], $rows);
+                break;
+            case 'json':
+                $io->write(json_encode($data));
+                break;
+            default:
+                throw new \Exception('What kind of crazy format is that!?');
+        }
+
         return 0;
     }
 }

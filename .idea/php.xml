@@ -100,16 +100,13 @@
       <path value="$PROJECT_DIR$/symfony/vendor/symfony/webpack-encore-bundle" />
       <path value="$PROJECT_DIR$/symfony/vendor/symfony/twig-bundle" />
       <path value="$PROJECT_DIR$/symfony/vendor/symfony/options-resolver" />
-      <path value="$PROJECT_DIR$/symfony/vendor/symfony/serializer-pack" />
       <path value="$PROJECT_DIR$/symfony/vendor/symfony/polyfill-intl-icu" />
       <path value="$PROJECT_DIR$/symfony/vendor/symfony/monolog-bundle" />
       <path value="$PROJECT_DIR$/symfony/vendor/symfony/property-access" />
       <path value="$PROJECT_DIR$/symfony/vendor/symfony/css-selector" />
       <path value="$PROJECT_DIR$/symfony/vendor/symfony/dom-crawler" />
       <path value="$PROJECT_DIR$/symfony/vendor/symfony/templating" />
-      <path value="$PROJECT_DIR$/symfony/vendor/symfony/twig-pack" />
       <path value="$PROJECT_DIR$/symfony/vendor/fzaninotto/faker" />
-      <path value="$PROJECT_DIR$/symfony/vendor/symfony/profiler-pack" />
       <path value="$PROJECT_DIR$/symfony/vendor/symfony/browser-kit" />
       <path value="$PROJECT_DIR$/symfony/vendor/symfony/validator" />
       <path value="$PROJECT_DIR$/symfony/vendor/symfony/security-bundle" />
